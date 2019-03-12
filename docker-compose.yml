@@ -2,7 +2,7 @@ version: "2"
 
 services:
   sfdx:
-    image: bretfisher/sfdx
+    image: ncino/ci-sfdx
     build: .
     volumes:
       - ~/.sfdx:/root/.sfdx
